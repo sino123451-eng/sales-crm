@@ -11,6 +11,7 @@ export function Footer() {
           </div>
           <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm font-bold text-primary-dark" aria-label="フッターナビゲーション">
             <a href="#" aria-label="プライバシーポリシーを見る">プライバシーポリシー</a>
+           
             <a href="#" aria-label="お問い合わせページを見る">お問い合わせ</a>
           </nav>
         </div>
