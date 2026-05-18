@@ -9,10 +9,20 @@ export function Footer() {
             <p className="text-sm leading-7 text-muted">特定募集情報等提供事業として届出済み</p>
             <p className="text-sm leading-7 text-muted">人材紹介・派遣・採用仲介ではありません</p>
           </div>
-          <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm font-bold text-primary-dark" aria-label="フッターナビゲーション">
-            <a href="#" aria-label="プライバシーポリシーを見る">プライバシーポリシー</a>
-           
-            <a href="#" aria-label="お問い合わせページを見る">お問い合わせ</a>
+
+          <nav
+            className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-bold text-primary-dark"
+            aria-label="フッターナビゲーション"
+          >
+            <a href="#" aria-label="プライバシーポリシーを見る">
+              プライバシーポリシー
+            </a>
+            <span className="text-muted" aria-hidden="true">
+              ｜
+            </span>
+            <a href="#" aria-label="お問い合わせページを見る">
+              お問い合わせ
+            </a>
           </nav>
         </div>
       </div>
