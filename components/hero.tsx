@@ -34,7 +34,6 @@ export function Hero() {
             <div className="absolute bottom-14 left-[-8%] h-32 w-[62%] rounded-[100%_100%_0_0] bg-accent/55" aria-hidden="true" />
             <div className="absolute bottom-10 right-[-10%] h-40 w-[72%] rounded-[100%_100%_0_0] bg-primary/30" aria-hidden="true" />
             <div className="absolute right-10 top-10 rounded-full border border-white/80 bg-white/70 px-4 py-2 text-xs font-bold text-primary-dark backdrop-blur">
-              画像差し替え想定: /images/hero-local.jpg
             </div>
             <div className="absolute bottom-4 left-4 right-4 rounded-3xl bg-white/90 p-5 backdrop-blur">
               <p className="text-sm font-bold text-primary">PROJECT情報の受け取り例</p>
