@@ -24,6 +24,7 @@ export function Hero() {
           </div>
           <p className="mt-4 text-xs leading-6 text-muted">※人材紹介・派遣・採用仲介ではありません</p>
         </div>
+
         <div className="soft-card overflow-hidden rounded-[2rem] p-3">
           <div
             className="relative min-h-[360px] overflow-hidden rounded-[1.5rem] bg-[linear-gradient(135deg,rgba(223,243,247,0.95)_0%,rgba(247,251,248,0.9)_46%,rgba(139,191,122,0.42)_100%)]"
@@ -33,8 +34,6 @@ export function Hero() {
             <div className="absolute bottom-0 left-0 h-36 w-full bg-[linear-gradient(165deg,rgba(47,125,122,0.36)_0%,rgba(139,191,122,0.38)_46%,rgba(31,79,77,0.48)_100%)]" aria-hidden="true" />
             <div className="absolute bottom-14 left-[-8%] h-32 w-[62%] rounded-[100%_100%_0_0] bg-accent/55" aria-hidden="true" />
             <div className="absolute bottom-10 right-[-10%] h-40 w-[72%] rounded-[100%_100%_0_0] bg-primary/30" aria-hidden="true" />
-            <div className="absolute right-10 top-10 rounded-full border border-white/80 bg-white/70 px-4 py-2 text-xs font-bold text-primary-dark backdrop-blur">
-            </div>
             <div className="absolute bottom-4 left-4 right-4 rounded-3xl bg-white/90 p-5 backdrop-blur">
               <p className="text-sm font-bold text-primary">PROJECT情報の受け取り例</p>
               <p className="mt-2 text-lg font-bold text-primary-dark">仕事内容・向いている人・得られる経験をLINEで確認</p>
